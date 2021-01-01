@@ -1,5 +1,5 @@
 ::@ECHO OFF
-SETLOCAL  ENABLEDELAYEDEXPANSION
+SETLOCAL ENABLEDELAYEDEXPANSION
 SET N=0
 for /f "tokens=*" %%W in ('youtube-dl -g %1') do (
   SET /A N=!N!+1
