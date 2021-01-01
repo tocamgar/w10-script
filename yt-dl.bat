@@ -1,7 +1,8 @@
+# comentario
 @ECHO OFF
 SETLOCAL  ENABLEDELAYEDEXPANSION
 SET N=0
-for /f "tokens=*" %%W in ('youtube-dl -g %1') do (
+for /f "tokens=*" %%W in ('youtube-dl -g %1') do ( 
   SET /A N=!N!+1
   SET URL_!N!=%%W
   ECHO URL_!N!

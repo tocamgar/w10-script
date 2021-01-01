@@ -1,10 +1,10 @@
 @echo off
 ::muestra lista de ficheros
-::for %%a in ("E:\V¡deos\CURIOSAMENTE\CAPITALISMO O SOCIALISMO_64_56_288p_?.mp4") do echo.%%a
+::for %%a in ("E:\V?deos\CURIOSAMENTE\CAPITALISMO O SOCIALISMO_64_56_288p_?.mp4") do echo.%%a
 SETLOCAL ENABLEDELAYEDEXPANSION
 set /A _num=0
 ::set /A _num +=1
-for %%a in ("E:\V¡deos\CURIOSAMENTE\CAPITALISMO O SOCIALISMO_64_56_288p_?.mp4") do (
+for %%a in ("E:\V?deos\CURIOSAMENTE\CAPITALISMO O SOCIALISMO_64_56_288p_?.mp4") do (
 	set archivo=%%a
 ::	echo.!_num!
 	echo.%archivo:~0,56%_140s!archivo:~-6!
