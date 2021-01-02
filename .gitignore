@@ -1,3 +1,4 @@
 fichero_a_ignorar.txt
-.vscode
+.vscode/
 workspace.code-workspace
+w10-script-master.zip
