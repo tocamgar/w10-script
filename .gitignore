@@ -1,1 +1,3 @@
 fichero_a_ignorar.txt
+.vscode
+workspace.code-workspace
