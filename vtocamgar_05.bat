@@ -16,7 +16,7 @@ ffmpeg ^
 %=			=%height=360,^
 %=	=%drawtext=^
 %=			=%fontfile='C\:/Windows/Fonts/impact.ttf':^
-%=			=%text=%TITULO%:^
+%=			=%text="%TITULO%":^
 %=			=%fontcolor=white:^
 %=			=%borderw=1:^
 %=			=%fontsize=18:^
@@ -41,4 +41,4 @@ ffmpeg ^
 	-ac 1 ^
 	-c:v h264 ^
 	-crf 30 ^
-	%VIDEO:~0,-5%_tocamgar.mp4"
+	%VIDEO:~0,-5%_tocamgar.mp4
