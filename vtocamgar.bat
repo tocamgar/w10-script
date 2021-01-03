@@ -2,13 +2,14 @@
 ::UTILIZO %==% PARA INDENTAR DRAWTEXT
 ::A¤ado un texto de t¡tulo
 ::2020-12-31 10:43:40
-::@ECHO OFF
-::SET VIDEO="E:\V¡deos\test.mp4"
+@ECHO OFF
+REM SET VIDEO="E:\V¡deos\test.mp4"
 SET VIDEO=%1
 SET /P TITULO=Introduzca el t¡tulo del video: 
 ffmpeg ^
+	-hide_banner ^
 	-y ^
-	-loglevel verbose ^
+REM	-loglevel verbose ^
 	-i %VIDEO% ^
 	-vf ^
 		  scale=^
@@ -38,9 +39,11 @@ ffmpeg ^
 %=	=%format=yuv420p^
 	-map 0:v ^
 	-map 0:a? ^
+	-profile:v high ^
+	-preset veryslow ^
 	-c:v libx264 ^
 	-crf 30 ^
 	-c:a aac ^
 	-q:a 1 ^
 	-ac 1 ^
-	%VIDEO:~0,-5%_tocamgar.mp4
+	%VIDEO:~0,-5%_tcg.mp4
