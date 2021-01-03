@@ -16,6 +16,7 @@ REM	-loglevel verbose ^
 %=			=%width=-2:^
 %=			=%height=360:^
 %=			=%flags=lanczos,^
+%=	=%setsar=1:1,^
 %=	=%drawtext=^
 %=			=%fontfile='C\:/Windows/Fonts/impact.ttf':^
 %=			=%text="%TITULO%":%= ==== COMILLAS DOBLES "" IMPORTANTES PARA INCLUIR ESPACIOS EN EL TITULO ==== =%^
