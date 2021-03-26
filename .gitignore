@@ -2,3 +2,6 @@ fichero_a_ignorar.txt
 .vscode/
 workspace.code-workspace
 w10-script-master.zip
+IP_CAM_EZVIZ.bat
+IP_CAM_TERRAZA.bat
+IP_CAM_SONOFF.bat
