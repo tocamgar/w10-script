@@ -6,7 +6,7 @@
 ::2021-03-26 21:14:16
 @ECHO OFF
 REM SET VIDEO="E:\V¡deos\test.mp4"
-SET VIDEO=%1
+SET VIDEO=%~1
 SET /P TITULO=Introduzca el t¡tulo del video: 
 REM	-loglevel verbose ^
 ffmpeg ^
