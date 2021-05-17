@@ -1,3 +1,5 @@
+#PRIMERA VENTANA TKINTER
+
 import tkinter as tk
 from tkinter import Button, Label, filedialog, Entry
 import subprocess
